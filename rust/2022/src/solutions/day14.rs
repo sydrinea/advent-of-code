@@ -30,7 +30,9 @@ impl Cave {
         let mut cave: HashMap<(usize, usize), char> = HashMap::new();
         for line in pairs(input) {
             for window in line.windows(2) {
-                let [first, second] = window else { unimplemented!() };
+                let [first, second] = window else {
+                    unimplemented!()
+                };
                 let (low, high) = if first.0 == second.0 {
                     (min(first.1, second.1), max(first.1, second.1))
                 } else {

@@ -31,8 +31,12 @@ where
                 .collect::<Vec<_>>()
         })
         .filter(|pair| {
-            let [fst, snd] = &pair[..] else { unimplemented!() };
-            let ([l1, r1], [l2, r2]) = (&fst[..], &snd[..]) else { unimplemented!() };
+            let [fst, snd] = &pair[..] else {
+                unimplemented!()
+            };
+            let ([l1, r1], [l2, r2]) = (&fst[..], &snd[..]) else {
+                unimplemented!()
+            };
             assert!(r1 >= l1 && r2 >= l2, "{}-{},{}-{}", l1, r1, l2, r2);
 
             f(l1, r1, l2, r2)
