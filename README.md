@@ -2,6 +2,17 @@
 
 My solutions for [Advent of Code](https://adventofcode.com/about), an Advent calendar of small programming puzzles!
 
+## ✨ 2025 ✨
+
+[25-1]: python/2025/day1.py
+
+|     |     |     |               |     |     |     |
+| --: | --: | --: | ------------: | --: | --: | --: |
+|     |     |     | **[1][25-1]** |   2 |   3 |   4 |
+|   5 |   6 |   7 |             8 |   9 |  10 |  11 |
+|  12 |     |     |               |     |     |     |
+|     |     |     |               |     |     |     |
+
 ## ✨ 2024 ✨
 
 [24-1]: julia/2024/day01.jl
